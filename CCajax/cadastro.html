@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Consultas e Cadastros AJAX</title>
+        <meta charset="utf-8"/>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"  />
+        
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>PHP com AJAX</h1>
+        
+        <!--Inicio de formulario-->
+            <div class="row">
+                <div class="col-8">
+                    <div class="form-group">
+                        <label for="txtNome">Nome completo</label>
+                        <input type="text" class="form-control" id="txtNome" placeholder="Nome Completo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-8">
+                    <div class="form-group">
+                        <label for="txtEmail">E-mail</label>
+                        <input type="email" class="form-control" id="txtEmail" placeholder="E-mail">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-8">    
+                    <div class="form-group">
+                        <label for="txtTelefone">Telefone</label>
+                        <input type="text" class="form-control" id="txtTelefone" placeholder="Telefone">
+                    </div>
+                </div>
+            </div>
+            <!--Botao de cadastrar que fara ligação com o arquivo ajax-->
+            <div class="row">
+                <div class="col-8">
+                    <div class="form-group">
+                        <button id="btnCadastrar" class="btn btn-info">Cadastrar</button>
+                        <span id="ResultadoCadastro"></span>
+                    </div>
+                </div>
+            </div>
+            <!--Fim de formulario-->
+
+            <!--Consulta-->
+            <div class="card">
+                <div class="card-header">
+                    <button id="btnConsultar" class="btn btn-success">Consultar</button>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0" id="ResultadoConsulta"></blockquote>
+                </div>
+            </div>
+    </div>
+    </body>
+</html>

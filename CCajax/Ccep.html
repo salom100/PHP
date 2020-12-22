@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>CEP Formulario</title>
+
+        <meta charset="utf-8"/>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Requisição de CEP com AJAX </h1>
+
+            <div class="row"><!--linha 1-->
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtCep">CEP</label>
+                        <input type="text" class="form-control" id="txtCep">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtLogradouro">Logradouro</label>
+                        <input type="text" class="form-control" id="txtLogradouro">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtComplemento">Complemento</label>
+                        <input type="text" class="form-control" id="txtComplemento">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtBairro">Bairro</label>
+                        <input type="text" class="form-control" id="txtBairro">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"><!--linha2-->
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtLocalidade">Localidade</label>
+                        <input type="text" class="form-control" id="txtLocalidade">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtUF">UF</label>   
+                        <input type="text" class="form-control" id="txtUF">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtIBGE">IBGE</label>
+                        <input type="text" class="form-control" id="txtIBGE">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtGIA">GIA</label>
+                        <input type="text" class="form-control" id="txtGIA">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"> <!--linha 3-->
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtDDD">DDD</label>
+                        <input type="text" class="form-control" id="txtDDD">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="txtSiafi">Siafi</label>
+                        <input type="text" class="form-control" id="txtSiafi">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <button id="btnCadastrarEndereco" class="btn btn-info">Cadastrar Endereço</button>
+                        <span id="ResultadoCad"></span>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
